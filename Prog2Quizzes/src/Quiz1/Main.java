@@ -24,7 +24,7 @@ public class Main {
 		System.out.println("Browser : " + p.getBrowser());
 		System.out.println("Share acreen : " + p.getShareScreen());
 		System.out.println("Warranty period : " + p.getWarrantyPeriod());
-		System.out.printf("Price : RM%.2f" + p.getPrice());
+		System.out.println("Price : RM" + p.getPrice());
 		System.out.println();
 		
 		System.out.println("==========SHARP===========");
@@ -44,7 +44,7 @@ public class Main {
 		System.out.println("Browser : " + s.getBrowser());
 		System.out.println("Share acreen : " + s.getShareScreen());
 		System.out.println("Warranty period : " + s.getWarrantyPeriod());
-		System.out.printf("Price : RM%.2f" + s.getPrice());
+		System.out.println("Price : RM" + s.getPrice());
 	}
 
 }

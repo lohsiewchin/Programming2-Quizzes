@@ -43,7 +43,7 @@ public class SmartTV {
 	}
 	
 	public void setPrice() {
-		System.out.println("Please enter the price of the smart Tv :");
+		System.out.println("Please enter the price of the smart TV :");
 		this.price=in.nextInt();
 	}
 	
